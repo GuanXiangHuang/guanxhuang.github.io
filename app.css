@@ -167,8 +167,8 @@ hr {
 
 .img-circle{
   display: block;
-  max-width:60px;
-  max-height:2px;
+  max-width: 60px;
+  max-height: 20px;
   width: auto;
   height: auto;
 }
