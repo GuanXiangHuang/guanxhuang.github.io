@@ -8,6 +8,28 @@ body {
     max-width: 100%;
     
 }
+.btn-info{
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+.btn-info:hover{
+  background-color: white;
+  color: rgba(26, 85, 202, 1);
+}
+
+.btn {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+a{
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
 
 #first{
     background: rgba(26, 85, 202, 1);
@@ -97,7 +119,6 @@ hr {
 #about{
     text-align: center;
     font-size: 45px;
-    
 }
 
 .title{
@@ -152,7 +173,7 @@ hr {
 #contact-box{
   background: #333333;
   font-family: "Courier New";
-  
+  word-wrap: break-word;
 }
 
 .contact-input{
