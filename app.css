@@ -62,7 +62,7 @@ a{
 
 
 #second{
-    background: #FCFDFF;
+    background: #E0E1E4;
     height: 300px;
     color: black;
     z-index: 1;
@@ -70,10 +70,17 @@ a{
 }
 
 #third{
-    background: #E0E1E4;
+    background: #FCFDFF;
     /* height: 400px; */
     border-top: 1px solid #cccccc;
     padding-bottom: 4%;
+}
+
+#fourth{
+  background: #E0E1E4;
+  /* height: 400px; */
+  border-top: 1px solid #cccccc;
+  padding-bottom: 4%;
 }
 
 #projects{
@@ -170,10 +177,18 @@ hr {
 
 .education{
     /* padding-top: 4%; */
-     padding-left: 22%; 
+     padding-left: 10%; 
+}
+
+.experience{
+  padding-left: 10%;
 }
 
 .education-description{
+  color: rgb(99, 156, 247, 1);
+}
+
+.experience-description{
   color: rgb(99, 156, 247, 1);
 }
 
